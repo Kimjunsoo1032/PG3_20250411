@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <iostream>
+#include <Windows.h>
 int main() {
-
-	printf("Hello 00_01 !");
-
-
+	SetConsoleOutputCP(65001);
+	char str[] = "キムジュンス";
+	printf("%s",str);
 	return 0;
 }
